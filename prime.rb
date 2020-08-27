@@ -1,14 +1,14 @@
-# A
+
 def prime?(num)
 
   if
   num <= 1
-  false
+  return false
 
   elsif
 
     num == 2
-     true
+     return true
 
   else
 
@@ -22,7 +22,7 @@ i += 1
 end
 
 result = arr.any? {|number| number == 0}
-puts !result
+return !result
 
 end
 end
