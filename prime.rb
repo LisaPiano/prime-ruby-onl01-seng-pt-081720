@@ -3,12 +3,12 @@ def prime?(num)
 
   if
   num <= 1
-  "false"
+  false
 
   elsif
 
     num == 2
-     "true"
+     true
 
   else
 
