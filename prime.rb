@@ -1,7 +1,7 @@
 # A
 def prime?(num)
 
-  if 
+  if
   num <= 1
   puts "false"
 
@@ -24,7 +24,7 @@ end
 result = arr.any? {|number| number == 0}
 puts !result
 
-end 
+end
 end
 
 prime?(8)dd  code here!
