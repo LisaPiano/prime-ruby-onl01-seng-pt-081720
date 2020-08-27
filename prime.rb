@@ -3,12 +3,12 @@ def prime?(num)
 
   if
   num <= 1
-  puts "false"
+  "false"
 
   elsif
 
     num == 2
-    puts "true"
+     "true"
 
   else
 
@@ -26,5 +26,3 @@ puts !result
 
 end
 end
-
-prime?(8)dd  code here!
